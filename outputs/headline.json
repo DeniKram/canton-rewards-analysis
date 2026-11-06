@@ -1,0 +1,84 @@
+{
+  "cc_price_usd": 0.09828829310344828,
+  "liveness_cliff_date": "2026-04-30",
+  "liveness_peak_beneficiaries": 933,
+  "liveness_peak_month": "2025-04",
+  "liveness_cc_per_validator_peak_month": 1824528.8382037384,
+  "liveness_cc_per_validator_last_paid_month": 15272.685146578357,
+  "liveness_last_paid_month": "2026-04",
+  "reward_share_2025": {
+    "Super Validators": 0.657,
+    "Applications": 0.064,
+    "Validators": 0.153,
+    "Other": 0.126
+  },
+  "reward_share_jun_oct_2026": {
+    "Super Validators": 0.188,
+    "Applications": 0.648,
+    "Validators": 0.106,
+    "Other": 0.058
+  },
+  "validators_total": 1556,
+  "validators_by_state": {
+    "active": 859,
+    "stale": 694,
+    "never_seen": 3
+  },
+  "validators_self_sponsored": 1009,
+  "validators_zero_balance_share": 0.43251928020565555,
+  "burn_to_mint_jun_oct_2026": 0.6300005675638657,
+  "fa_providers": 107,
+  "fa_ratio_1.05_to_1.15": 32,
+  "fa_weight_concentration": {
+    "n": 107,
+    "total_weight": 80053457.371,
+    "hhi": 0.142,
+    "effective_n": 7.065,
+    "top1_share": 0.284,
+    "top5_share": 0.716,
+    "top10_share": 0.89,
+    "nakamoto_1_3": 2,
+    "nakamoto_2_3": 5,
+    "gini": 0.906
+  },
+  "apps_net_payers": 30,
+  "apps_total": 143,
+  "apps_rewards_30d_cc": 423567102.4067036,
+  "apps_sync_fees_30d_cc": 436181604.5766857,
+  "fa_locking": {
+    "featured_count": 135,
+    "meets_requirement_count": 118,
+    "shortfall_count": 66,
+    "required_total": "1480000000",
+    "shortfall_total": "414999938"
+  },
+  "sv_owner_concentration": {
+    "n": 85,
+    "total_weight": 4044500.0,
+    "hhi": 0.02,
+    "effective_n": 49.538,
+    "top1_share": 0.039,
+    "top5_share": 0.171,
+    "top10_share": 0.295,
+    "nakamoto_1_3": 12,
+    "nakamoto_2_3": 27,
+    "gini": 0.457
+  },
+  "sv_node_concentration": {
+    "n": 13,
+    "total_weight": 4044500.0,
+    "hhi": 0.274,
+    "effective_n": 3.647,
+    "top1_share": 0.483,
+    "top5_share": 0.804,
+    "top10_share": 0.947,
+    "nakamoto_1_3": 1,
+    "nakamoto_2_3": 3,
+    "gini": 0.595
+  },
+  "sv_largest_node": {
+    "name": "Global-Synchronizer-Foundation",
+    "share": 0.48287798244529606,
+    "owners_hosted": 55
+  }
+}

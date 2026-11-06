@@ -1,0 +1,62 @@
+cip,entity,weight,weight_type,status,note
+9,Broadridge,10,fixed,Final,
+10,LCV,10,tier,Final,T1 tier = weight 10
+15,Copper,1,fixed,Final,
+16,Dfns,1,fixed,Final,
+17,MPCH,1,fixed,Final,
+18,Tradeweb,10,fixed,Final,
+19,7RIDGE,10,fixed,Final,placeholder name for NewCo
+32,Lukka,1,fixed,Final,
+34,Proof Group,1,fixed,Final,
+35,Five North,3,fixed,Final,
+36,Kiln,1,fixed,Final,
+37,Obsidian,1,fixed,Final,
+38,Hexagate,1,fixed,Final,
+39,Copper Clearloop,1,fixed,Final,
+40,Deribit,1,fixed,Final,
+41,Circle,10,fixed,Final,
+43,TRM,,unknown,Final,weight not in title
+44,Elliptic,0.5,fixed,Final,
+46,Coin Metrics,1,fixed,Final,
+53,AngelHack,2.5,fixed,Final,
+54,Figment,1,fixed,Final,
+55,Bitwave,1,fixed,Final,
+57,Quantstamp,1,fixed,Final,
+58,IntellectEU,1,fixed,Final,
+60,Zero Hash,7.5,fixed,Final,
+61,Chainlink,7.5,fixed,Final,
+63,Kaiko,6.5,fixed,Final,
+65,LayerZero,3,fixed,Final,
+65,Wormhole,3,fixed,Final,
+65,Chainlink,3,fixed,Final,second Chainlink CIP; check if additive or replacement
+69,Ledger,5,fixed,Final,
+71,Ubyx,5,fixed,Final,
+72,Fireblocks,5,fixed,Final,
+74,BitGo,5,fixed,Approved,
+75,Zodia,5,max,Approved,
+76,Hypernative,1,fixed,Final,
+77,Taurus,5,fixed,Approved,
+80,Republic,6,fixed,Final,
+81,YZi Labs,10,fixed,Approved,
+83,DTCC,,unknown,Approved,weight not in title
+85,Talos,6.5,fixed,Final,
+87,Hex Trust,3,fixed,Approved,
+90,USDT0,10,outcome_max,Approved,outcome-linked; max weight
+91,Zenith,10,fixed,Approved,
+93,Bosphorus SV,6,max,Approved,
+94,Blockdaemon,5,fixed,Approved,
+95,Mesh,10,outcome_max,Approved,outcome-linked; max weight
+97,Nasdaq,,unknown,Approved,weight not in title
+102,Tharimmune,4,fixed,Approved,
+106,QCP Group,5,fixed,Approved,
+109,Visa,,unknown,Approved,weight not in title
+110,Apollo,7,max,Approved,
+113,Further Asset Management,8,fixed,Approved,
+115,Societe Generale,8,max,Approved,
+118,Franklin Templeton,5,max,Approved,
+121,Shinhan Asset Management,10,fixed,Approved,
+122,TreasurySpring,4,max,Approved,
+123,a16z crypto,10,max,Approved,
+124,LSEG,,unknown,Approved,weight not in title
+125,Paxos,8,fixed,Approved,
+126,Marex,10,fixed,Approved,
