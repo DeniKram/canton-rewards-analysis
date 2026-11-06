@@ -83,4 +83,4 @@ Run the tests with `python -m pytest tests`.
 
 Denis Kramskyi · [LinkedIn](https://linkedin.com/in/denis-kramskyi) · [GitHub](https://github.com/DeniKram)
 
-An AI assistant helped with code and editing; data choices, analysis and conclusions are the author's own.
+
