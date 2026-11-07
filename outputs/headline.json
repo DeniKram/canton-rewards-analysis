@@ -48,9 +48,10 @@
   "fa_locking": {
     "featured_count": 135,
     "meets_requirement_count": 118,
-    "shortfall_count": 66,
-    "required_total": "1480000000",
-    "shortfall_total": "414999938"
+    "shortfall_count": 17,
+    "shortfall_total": 109999938.07022673,
+    "required_total": 1175000000.0,
+    "paused_cip0116_count": 49
   },
   "sv_owner_concentration": {
     "n": 85,

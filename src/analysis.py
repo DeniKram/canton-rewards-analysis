@@ -131,7 +131,23 @@ def app_economics() -> pd.DataFrame:
 
 
 def fa_locking_summary() -> dict:
-    return _load("fa_locking")["summary"]
+    """Lock status of APPROVED featured apps only.
+
+    The API's own summary counts shortfalls over all 246 registry rows
+    (paused, revoked and pending ones included), so it is not used here.
+    """
+    d = _load("fa_locking")
+    a = pd.DataFrame(d["apps"])
+    ap = a[a["status"] == "approved"]
+    shortfall = ap["shortfall"].astype(float)
+    return {
+        "featured_count": int(len(ap)),
+        "meets_requirement_count": int(ap["meets_requirement"].sum()),
+        "shortfall_count": int((shortfall > 0).sum()),
+        "shortfall_total": float(shortfall.sum()),
+        "required_total": float(ap["required_lock"].astype(float).sum()),
+        "paused_cip0116_count": int((a["status"] == "paused").sum()),
+    }
 
 
 # ---------------------------------------------------------------- 5. super validators
@@ -189,8 +205,7 @@ def headline() -> dict:
         "apps_total": int(len(a)),
         "apps_rewards_30d_cc": float(a["rewards"].sum()),
         "apps_sync_fees_30d_cc": float(a["syncFees"].sum()),
-        "fa_locking": {k: lock[k] for k in ("featured_count", "meets_requirement_count",
-                                            "shortfall_count", "required_total", "shortfall_total")},
+        "fa_locking": lock,
         "sv_owner_concentration": {k: round(v_, 3) for k, v_ in summary(owners.groupby("name")["weight"].sum()).items()},
         "sv_node_concentration": {k: round(v_, 3) for k, v_ in summary(nodes["weight"]).items()},
         "sv_largest_node": {"name": nodes.loc[0, "name"],
