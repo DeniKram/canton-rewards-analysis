@@ -2,7 +2,7 @@
 
 An on-chain data analysis of how the Canton Network distributes Canton Coin (CC) rewards
 between Super Validators, validators and applications, before and after the
-1 January 2026 halving and CIP-0096 (end of validator liveness rewards, 30 April 2026).
+mid-January 2026 halving and CIP-0096 (end of validator liveness rewards, 30 April 2026).
 
 Data: [CC Space API](https://cc.itrocket.space), pulled on 6 November 2026.
 
@@ -20,7 +20,7 @@ Data: [CC Space API](https://cc.itrocket.space), pulled on 6 November 2026.
 | Super Validator reward weight on the largest node | 48% (votes are one per node) |
 
 1. **The liveness cliff was a non-event.** Liveness pay per validator had already fallen by over 99% before CIP-0096 switched it off.
-2. **The real shift was the January 2026 halving.** Applications overtook Super Validators as the main reward recipients in January–February 2026.
+2. **The real shift was the mid-January 2026 halving, which halved issuance and cut the Super Validator share of it from 48% to 20%.** Applications overtook Super Validators as the main reward recipients in January–February 2026.
 3. **Large applications pay their way; the long tail sits on a quota floor.** 27 small apps earn ~135K CC a month each with almost no fees.
 4. **The rules shape behaviour.** Featured apps cluster just under the 115% compliance flag.
 5. **Governance is spread, hosting is not.** 85 parties own SV reward rights, but half of that weight is hosted on one of 13 nodes.
@@ -77,6 +77,7 @@ Run the tests with `python -m pytest tests`.
 - [Canton CIP repository](https://github.com/canton-foundation/cips)
 - [CIP-0116: Featured App Locking](https://github.com/canton-foundation/cips/blob/main/cip-0116/cip-0116.md)
 - [SV governance reference](https://docs.canton.network/overview/reference/sv-governance-reference.md)
+- [Canton Coin: how should we think about FDV (halving, Jan 2026)](https://www.canton.network/blog/canton-coin-how-should-we-think-about-fdv)
 - [Tokenomics of the Global Synchronizer](https://docs.canton.network/overview/reference/tokenomics-of-gs.md)
 
 ## Author
