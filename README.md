@@ -16,12 +16,12 @@ Data: [CC Space API](https://cc.itrocket.space), pulled on 6 November 2026.
 | Super Validators' share of claimed rewards | 66% (2025) → 19% (Jun–Oct 2026) |
 | Applications, last 30 days: rewards vs fees paid | 424M CC vs 436M CC |
 | Featured apps at 105–115% of their reward allowance (flag at 115%) | 32 of 107 |
-| Featured apps short of the CIP-0116 lock | 66 of 135 (415M CC total) |
+| Approved featured apps short of the CIP-0116 lock | 17 of 135 (110M CC total); 49 more registry entries paused under CIP-0116 |
 | Super Validator reward weight on the largest node | 48% (votes are one per node) |
 
 1. **The liveness cliff was a non-event.** Liveness pay per validator had already fallen by over 99% before CIP-0096 switched it off.
 2. **The real shift was the January 2026 halving.** Applications overtook Super Validators as the main reward recipients in January–February 2026.
-3. **Large applications pay their way; the long tail sits on a quota floor.** About 20 small apps earn ~130K CC a month with almost no fees.
+3. **Large applications pay their way; the long tail sits on a quota floor.** 27 small apps earn ~135K CC a month each with almost no fees.
 4. **The rules shape behaviour.** Featured apps cluster just under the 115% compliance flag.
 5. **Governance is spread, hosting is not.** 85 parties own SV reward rights, but half of that weight is hosted on one of 13 nodes.
 
